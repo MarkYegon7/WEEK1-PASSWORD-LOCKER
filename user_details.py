@@ -15,13 +15,11 @@ class User:
     def save_user(self):
         User.users_list.append(self)
         
-      
+    @classmethod   
     def check_user(cls,username,password):
         current_user = ''
         for user in cls.users_list:
-            if (user.username == username and user.password == password):
-                current_user = user.username
-                return current_user
+        
         return False
         
 class Credentials:
