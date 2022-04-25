@@ -143,7 +143,7 @@ def main():
 		else:
 			print("-"*60)
 			print(' ')
-			print('Oops! Wrong option entered. Try again.'
+			print('Oops! Wrong option entered. Try again.')
 				
 
 
