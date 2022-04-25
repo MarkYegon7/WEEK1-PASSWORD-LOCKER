@@ -16,7 +16,7 @@ def save_user(user):
     user.save_user()
 
 
-def verify_user(password):
+def verify_user(username,password)
     '''
     verify user before creating credentials
     '''
