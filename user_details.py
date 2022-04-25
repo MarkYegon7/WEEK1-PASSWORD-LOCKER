@@ -23,7 +23,7 @@ class User:
                 current_user = user.username
                 return current_user
         return False
-
+        
         
 class Credentials:
     '''
@@ -34,7 +34,7 @@ class Credentials:
         self.site_name = site_name
         self.account_name = account_name
         self.password = password
-    
+    credentials_list = []
     user_credential_list = []
         
     def save_credentials(self):
