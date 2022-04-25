@@ -1,5 +1,5 @@
 import pyperclip
-
+from user_details import User
 
 def create_user(username,password):
     
