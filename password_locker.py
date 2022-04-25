@@ -52,11 +52,11 @@ def copy_credential(site_name):
 
 def main():
 	print(' ')
-	
+	print('Hello! Welcome to Paswaaad Locker.')
 	while True:
 		print(' ')
 		print("-"*60)
-		print('Use these codes to navigate:  acc-Create an Account , li-Log In , ex-Exit')
+		print('Use these codes to navigate:  acc-Create an Account , li-Log In , ')
 		short_code = input('Enter a choice: ')
 		if short_code == 'ex':
 			break
