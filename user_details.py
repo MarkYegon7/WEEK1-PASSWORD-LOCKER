@@ -2,26 +2,7 @@ import pyperclip
 import random
 import string
 
-class User:
-    '''
-    creates user accounts and save information
-    '''
-    
-    def __init__(self,username,password):
-        self.username = username
-        self.password = password
-    users_list = []
-        
-   
-        
-    @classmethod    
-    def check_user(cls,username,password):
-        current_user = ''
-        for user in cls.users_list:
-            if (user.username == username and user.password == password):
-                current_user = user.username
-                return current_user
-        return False
+
         
 class Credentials:
     '''
