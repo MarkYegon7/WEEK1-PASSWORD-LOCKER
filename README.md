@@ -1,6 +1,4 @@
-# Project name
-
-WEEK1-PASSWORD-LOCKER
+R
 
 # Project Author
 
