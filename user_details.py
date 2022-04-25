@@ -12,8 +12,7 @@ class User:
         self.password = password
     users_list = []
         
-    def save_user(self):
-        User.users_list.append(self)
+   
         
     @classmethod    
     def check_user(cls,username,password):
