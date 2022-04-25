@@ -61,7 +61,7 @@ def main():
 		if short_code == 'ex':
 			break
 
-		 short_code == 'acc':
+		elif short_code == 'acc':
 			print("-"*60)
 			print(' ')
 			print('To create a new account:')
@@ -143,7 +143,7 @@ def main():
 		else:
 			print("-"*60)
 			print(' ')
-			print('Oops! Wrong option entered. Try again.')
+			print('Oops! Wrong option entered. Try again.'
 				
 
 
