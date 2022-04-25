@@ -19,8 +19,11 @@ class User:
     def check_user(cls,username,password):
         current_user = ''
         for user in cls.users_list:
-        
+            if (user.username == username and user.password == password):
+                current_user = user.username
+                return current_user
         return False
+
         
 class Credentials:
     '''
@@ -31,7 +34,7 @@ class Credentials:
         self.site_name = site_name
         self.account_name = account_name
         self.password = password
-    credentials_list = []
+    
     user_credential_list = []
         
     def save_credentials(self):
