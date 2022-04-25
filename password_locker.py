@@ -16,11 +16,11 @@ def save_user(user):
     user.save_user()
 
 
-def verify_user(username,password):
+def verify_user(password):
     '''
     verify user before creating credentials
     '''
-    
+    return User.check_user(username,password)
 	 
 def generate_password():
     '''
