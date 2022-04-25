@@ -4,7 +4,7 @@ from user_details import User, Credentials
 def create_user(username,password):
     
     '''
-   
+    Create new user account
     '''
     new_user = User(username,password)
     return new_user
@@ -20,7 +20,7 @@ def verify_user(username,password):
     '''
     verify user before creating credentials
     '''
-    return User.check_user(username,password)
+    
 	 
 def generate_password():
     '''
